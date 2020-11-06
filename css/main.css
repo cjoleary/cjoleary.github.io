@@ -26,6 +26,10 @@ h2:nth-of-type(odd) {
     background-size: cover;
 }
 
+.jumbotron div {
+    padding-left: 39px;
+}
+
 #work p,
 #work h3 {
     color: #343a40;
