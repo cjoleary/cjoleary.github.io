@@ -1,5 +1,26 @@
 
-h2,
-.border {
+h2:nth-of-type(odd) {
     color: #dee1e9;
+}
+
+.evens h2 {
+    color: #f8f9fa;
+}
+
+.evens {
+    background-color: #dee1e9;
+    padding-bottom: 2.5rem;
+}
+
+.jumbotron {
+    background:linear-gradient(0deg, rgba(3, 63, 144, 0.5), rgba(3, 63, 144, 0.5)), url(../img/jumbotron.png);
+    background-size: cover;
+}
+
+#work p {
+    color: #343a40;
+}
+
+#work h3 {
+    color: #343a40;
 }
