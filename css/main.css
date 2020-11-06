@@ -31,11 +31,11 @@ h2:nth-of-type(odd) {
     color: #343a40;
 }
 
-img {
-    opacity: .75;
+#work img {
+    opacity: .8;
     transition: all .3s ease;
 }
 
-img:hover {
+#work img:hover {
     opacity: 1;
 }
