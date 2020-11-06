@@ -1,4 +1,9 @@
 
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 h2:nth-of-type(odd) {
     color: #dee1e9;
 }
