@@ -4,6 +4,10 @@ body {
     margin: 0 auto;
 }
 
+nav {
+    background-color: #263a6e;
+}
+
 h2:nth-of-type(odd) {
     color: #dee1e9;
 }
@@ -22,10 +26,16 @@ h2:nth-of-type(odd) {
     background-size: cover;
 }
 
-#work p {
+#work p,
+#work h3 {
     color: #343a40;
 }
 
-#work h3 {
-    color: #343a40;
+img {
+    opacity: .75;
+    transition: all .3s ease;
+}
+
+img:hover {
+    opacity: 1;
 }
