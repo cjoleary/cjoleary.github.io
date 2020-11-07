@@ -43,3 +43,10 @@ h2:nth-of-type(odd) {
 #work img:hover {
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+    #about img {
+        height: 250px;
+        width: 250px;
+    }
+}
