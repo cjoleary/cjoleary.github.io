@@ -8,11 +8,13 @@ nav {
     background-color: #263a6e;
 }
 
-h2:nth-of-type(odd) {
+h2:nth-of-type(odd),
+h3 span {
     color: #bbc4d8;
 }
 
-.evens h2 {
+.evens h2,
+.evens h3 span {
     color: #f8f9fa;
 }
 
