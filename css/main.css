@@ -35,12 +35,14 @@ h2:nth-of-type(odd) {
     color: #343a40;
 }
 
-#work img {
+#work img,
+.social-link {
     opacity: .8;
     transition: all .3s ease;
 }
 
-#work img:hover {
+#work img:hover,
+.social-link:hover {
     opacity: 1;
 }
 
