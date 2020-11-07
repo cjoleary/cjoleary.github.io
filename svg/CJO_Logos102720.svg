@@ -3,9 +3,10 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 216 216" style="enable-background:new 0 0 216 216;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#DBDBDB;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:#033F90;}
+	.st0{fill:#bbc4d8;} <!-- blue grey -->
+	.st1{fill:#f8f9fa;} <!-- white -->
+	.st2{fill:#263a6e;} <!-- dark blue -->
+	
 </style>
 <g id="Layer_1">
 	<rect x="0" class="st0" width="216" height="216"/>
@@ -15,7 +16,7 @@
 	<g>
 		<circle class="st1" cx="108" cy="108.3" r="94.9"/>
 		<polygon class="st0" points="138.5,78.2 138.5,117.5 108,117.2 108,108.2 77.5,108.2 77.5,78.2 		"/>
-		<polygon points="77.5,139.2 168.6,139.2 168.6,168.8 47.4,168.8 47.4,47.6 168.6,47.6 168.6,78.2 77.5,78.2 		"/>
+		<polygon class="st3" points="77.5,139.2 168.6,139.2 168.6,168.8 47.4,168.8 47.4,47.6 168.6,47.6 168.6,78.2 77.5,78.2 		"/>
 		<polygon class="st2" points="168.6,78.2 168.6,139.2 77.5,139.2 77.5,108.2 108,108.2 108,117.2 138.5,117.5 138.5,78.2 		"/>
 	</g>
 	<g>
