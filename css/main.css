@@ -11,8 +11,13 @@ nav {
 }
 
 h2:nth-of-type(odd),
-h3 span {
+h3 span,
+h6 {
     color: #bbc4d8;
+}
+
+h6 {
+    padding-left: 39px;
 }
 
 .evens h2,
@@ -50,9 +55,15 @@ h3 span {
     opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #about img {
         height: 250px;
         width: 250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        height: 450px;
     }
 }
