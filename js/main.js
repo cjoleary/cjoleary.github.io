@@ -1,3 +1,7 @@
+
+// ==================== //
+// Aminsition animation //
+// ==================== //
 $(document).ready(function() {
     $(".animsition").animsition({
       inClass: 'fade-in-down-sm',
