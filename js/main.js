@@ -20,7 +20,7 @@ page.addEventListener("click", ()=>{
     
         // if scroll Y position greater than x, fade in
         window.addEventListener("scroll", () => {
-        if(window.scrollY > 270){
+        if(window.scrollY > 316){
             $("#project-1").animate({"opacity": "1"}, 1200);
             // turn opacity ot 0 first in css, then opacity to 1.0 here .
         }
