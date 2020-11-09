@@ -22,7 +22,7 @@ body {
     } 
 
 nav {
-    background-color: #263a6e;
+    /* background-color: #263a6e; */
     max-width: 1500px;
     margin: 0 auto;
 }
@@ -50,6 +50,7 @@ h6 {
 .jumbotron {
     background:linear-gradient(0deg, rgba(3, 63, 144, 0.5), rgba(3, 63, 144, 0.5)), url(../img/jumbotron.png);
     background-size: cover;
+    height: 100vh;
 }
 
 .jumbotron div {
@@ -79,8 +80,8 @@ h6 {
     }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .jumbotron {
         height: 450px;
     }
-}
+} */
