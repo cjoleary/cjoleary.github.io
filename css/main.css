@@ -58,7 +58,9 @@ h6 {
 }
 
 #work p,
-#work h3 {
+#work h3,
+h4,
+ul li {
     color: #343a40;
 }
 
@@ -71,6 +73,10 @@ h6 {
 #work img:hover,
 .social-link:hover {
     opacity: 1;
+}
+
+ul li {
+    list-style-type: none;
 }
 
 @media (max-width: 767px) {
