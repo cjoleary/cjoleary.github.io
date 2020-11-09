@@ -20,26 +20,26 @@ page.addEventListener("click", ()=>{
     
         // if scroll Y position greater than x, fade in
         window.addEventListener("scroll", () => {
-        if(window.scrollY > 316){
+        if(window.scrollY > 300){
             $("#project-1").animate({"opacity": "1"}, 1200);
             // turn opacity ot 0 first in css, then opacity to 1.0 here .
         }
         if(window.scrollY > 913){
             $("#project-2").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 1656){
+        if(window.scrollY > 1646){
             $("#project-3").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2336){
+        if(window.scrollY > 2274){
             $("#project-4").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 3053){
+        if(window.scrollY > 2964){
             $("#project-5").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 3722){
+        if(window.scrollY > 3637){
             $("#project-6").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 4367){
+        if(window.scrollY > 4300){
             $("#about").animate({"opacity": "1"}, 1200);
         }
         });
