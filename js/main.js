@@ -8,8 +8,8 @@ page.addEventListener("click", ()=>{
 });
 
 // fade in content when scrolling work and about sections
-    // large screens
-    if(screenWidth >= 1200){
+    // larger screen
+    if(screenWidth >= 1280){
         $("#project-1").animate({"opacity": "0"});
         $("#project-2").animate({"opacity": "0"});
         $("#project-3").animate({"opacity": "0"});
@@ -20,33 +20,70 @@ page.addEventListener("click", ()=>{
     
         // if scroll Y position greater than x, fade in
         window.addEventListener("scroll", () => {
-        if(window.scrollY > 300){
+        if(window.scrollY > 282){
             $("#project-1").animate({"opacity": "1"}, 1200);
             // turn opacity ot 0 first in css, then opacity to 1.0 here .
         }
-        if(window.scrollY > 913){
+        if(window.scrollY > 951){
             $("#project-2").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 1646){
+        if(window.scrollY > 1545){
             $("#project-3").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2274){
+        if(window.scrollY > 2200){
             $("#project-4").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2964){
+        if(window.scrollY > 2900){
             $("#project-5").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 3637){
+        if(window.scrollY > 3577){
             $("#project-6").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 4300){
+        if(window.scrollY > 4200){
+            $("#about").animate({"opacity": "1"}, 1200);
+        }
+        });
+    }
+
+    // laptop screens screens
+    if(screenWidth >= 1024 && screenWidth < 1280){
+        $("#project-1").animate({"opacity": "0"});
+        $("#project-2").animate({"opacity": "0"});
+        $("#project-3").animate({"opacity": "0"});
+        $("#project-4").animate({"opacity": "0"});
+        $("#project-5").animate({"opacity": "0"});
+        $("#project-6").animate({"opacity": "0"});
+        $("#about").animate({"opacity": "0"});
+    
+        // if scroll Y position greater than x, fade in
+        window.addEventListener("scroll", () => {
+        if(window.scrollY > 200){
+            $("#project-1").animate({"opacity": "1"}, 1200);
+            // turn opacity ot 0 first in css, then opacity to 1.0 here .
+        }
+        if(window.scrollY > 734){
+            $("#project-2").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 1217){
+            $("#project-3").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 1741){
+            $("#project-4").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 2280){
+            $("#project-5").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 2785){
+            $("#project-6").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 3278){
             $("#about").animate({"opacity": "1"}, 1200);
         }
         });
     }
 
     // tablet screens
-    if(screenWidth >= 768 && screenWidth < 1200){
+    if(screenWidth >= 768 && screenWidth < 1024){
         $("#project-1").animate({"opacity": "0"});
         $("#project-2").animate({"opacity": "0"});
         $("#project-3").animate({"opacity": "0"});
