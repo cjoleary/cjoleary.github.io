@@ -27,26 +27,26 @@ page.addEventListener("click", ()=>{
         if(window.scrollY > 913){
             $("#project-2").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 1556){
+        if(window.scrollY > 1656){
             $("#project-3").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2189){
+        if(window.scrollY > 2336){
             $("#project-4").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2798){
+        if(window.scrollY > 3053){
             $("#project-5").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 3349){
+        if(window.scrollY > 3722){
             $("#project-6").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 3970){
+        if(window.scrollY > 4367){
             $("#about").animate({"opacity": "1"}, 1200);
         }
         });
     }
 
     // tablet screens
-    if(screenWidth >= 768){
+    if(screenWidth >= 768 && screenWidth < 1200){
         $("#project-1").animate({"opacity": "0"});
         $("#project-2").animate({"opacity": "0"});
         $("#project-3").animate({"opacity": "0"});
@@ -83,7 +83,7 @@ page.addEventListener("click", ()=>{
     }
 
     // mobile screens
-    if(screenWidth >= 375){
+    if(screenWidth >= 375 && screenWidth < 768){
         $("#project-1").animate({"opacity": "0"});
         $("#project-2").animate({"opacity": "0"});
         $("#project-3").animate({"opacity": "0"});
@@ -110,7 +110,7 @@ page.addEventListener("click", ()=>{
         if(window.scrollY > 2271){
             $("#project-5").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2807){
+        if(window.scrollY > 2707){
             $("#project-6").animate({"opacity": "1"}, 1200);
         }
         if(window.scrollY > 3343){
