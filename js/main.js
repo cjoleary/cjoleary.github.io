@@ -40,7 +40,7 @@ page.addEventListener("click", ()=>{
         if(window.scrollY > 3400){
             $("#project-6").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 4000){
+        if(window.scrollY > 4100){
             $("#project-7").animate({"opacity": "1"}, 1200);
         }
         if(window.scrollY > 4600){
