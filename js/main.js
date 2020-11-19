@@ -17,6 +17,7 @@ page.addEventListener("click", ()=>{
         $("#project-5").animate({"opacity": "0"});
         $("#project-6").animate({"opacity": "0"});
         $("#project-7").animate({"opacity": "0"});
+        $("#project-8").animate({"opacity": "0"});
         $("#about").animate({"opacity": "0"});
     
         // if scroll Y position greater than x, fade in
@@ -31,10 +32,10 @@ page.addEventListener("click", ()=>{
         if(window.scrollY > 1545){
             $("#project-3").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2100){
+        if(window.scrollY > 2235){
             $("#project-4").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2800){
+        if(window.scrollY > 2850){
             $("#project-5").animate({"opacity": "1"}, 1200);
         }
         if(window.scrollY > 3400){
@@ -43,7 +44,10 @@ page.addEventListener("click", ()=>{
         if(window.scrollY > 4100){
             $("#project-7").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 4600){
+        if(window.scrollY > 4750){
+            $("#project-8").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 5200){
             $("#about").animate({"opacity": "1"}, 1200);
         }
         });
@@ -58,6 +62,7 @@ page.addEventListener("click", ()=>{
         $("#project-5").animate({"opacity": "0"});
         $("#project-6").animate({"opacity": "0"});
         $("#project-7").animate({"opacity": "0"});
+        $("#project-8").animate({"opacity": "0"});
         $("#about").animate({"opacity": "0"});
     
         // if scroll Y position greater than x, fade in
@@ -85,6 +90,9 @@ page.addEventListener("click", ()=>{
             $("#project-7").animate({"opacity": "1"}, 1200);
         }
         if(window.scrollY > 3778){
+            $("#project-8").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 4400){
             $("#about").animate({"opacity": "1"}, 1200);
         }
         });
@@ -99,6 +107,7 @@ page.addEventListener("click", ()=>{
         $("#project-5").animate({"opacity": "0"});
         $("#project-6").animate({"opacity": "0"});
         $("#project-7").animate({"opacity": "0"});
+        $("#project-8").animate({"opacity": "0"});
         $("#about").animate({"opacity": "0"});
     
         // if scroll Y position greater than x, fade in
@@ -110,22 +119,25 @@ page.addEventListener("click", ()=>{
         if(window.scrollY > 678){
             $("#project-2").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 1087){
+        if(window.scrollY > 1200){
             $("#project-3").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 1536){
+        if(window.scrollY > 1600){
             $("#project-4").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 1929){
+        if(window.scrollY > 2000){
             $("#project-5").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2353){
+        if(window.scrollY > 2500){
             $("#project-6").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2777){
+        if(window.scrollY > 2900){
             $("#project-7").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 3274){
+        if(window.scrollY > 3350){
+            $("#project-8").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 3800){
             $("#about").animate({"opacity": "1"}, 1200);
         }
         });
@@ -140,6 +152,7 @@ page.addEventListener("click", ()=>{
         $("#project-5").animate({"opacity": "0"});
         $("#project-6").animate({"opacity": "0"});
         $("#project-7").animate({"opacity": "0"});
+        $("#project-8").animate({"opacity": "0"});
         $("#about").animate({"opacity": "0"});
     
         // if scroll Y position greater than x, fade in
@@ -167,6 +180,9 @@ page.addEventListener("click", ()=>{
             $("#project-7").animate({"opacity": "1"}, 1200);
         }
         if(window.scrollY > 3843){
+            $("#project-8").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 4543){
             $("#about").animate({"opacity": "1"}, 1200);
         }
         });
