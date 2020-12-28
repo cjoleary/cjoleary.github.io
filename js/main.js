@@ -18,36 +18,40 @@ page.addEventListener("click", ()=>{
         $("#project-6").animate({"opacity": "0"});
         $("#project-7").animate({"opacity": "0"});
         $("#project-8").animate({"opacity": "0"});
+        $("#project-9").animate({"opacity": "0"});
         $("#about").animate({"opacity": "0"});
     
         // if scroll Y position greater than x, fade in
         window.addEventListener("scroll", () => {
-        if(window.scrollY > 282){
+        if(window.scrollY > 455){
             $("#project-1").animate({"opacity": "1"}, 1200);
             // turn opacity ot 0 first in css, then opacity to 1.0 here .
         }
-        if(window.scrollY > 951){
+        if(window.scrollY > 1100){
             $("#project-2").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 1545){
+        if(window.scrollY > 1838){
             $("#project-3").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2235){
+        if(window.scrollY > 2519){
             $("#project-4").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 2850){
+        if(window.scrollY > 3200){
             $("#project-5").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 3400){
+        if(window.scrollY > 3860){
             $("#project-6").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 4100){
+        if(window.scrollY > 4544){
             $("#project-7").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 4750){
+        if(window.scrollY > 5200){
             $("#project-8").animate({"opacity": "1"}, 1200);
         }
-        if(window.scrollY > 5200){
+        if(window.scrollY > 5900){
+            $("#project-9").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 6600){
             $("#about").animate({"opacity": "1"}, 1200);
         }
         });
@@ -63,6 +67,7 @@ page.addEventListener("click", ()=>{
         $("#project-6").animate({"opacity": "0"});
         $("#project-7").animate({"opacity": "0"});
         $("#project-8").animate({"opacity": "0"});
+        $("#project-9").animate({"opacity": "0"});
         $("#about").animate({"opacity": "0"});
     
         // if scroll Y position greater than x, fade in
@@ -93,6 +98,9 @@ page.addEventListener("click", ()=>{
             $("#project-8").animate({"opacity": "1"}, 1200);
         }
         if(window.scrollY > 4400){
+            $("#project-9").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 5000){
             $("#about").animate({"opacity": "1"}, 1200);
         }
         });
@@ -108,6 +116,7 @@ page.addEventListener("click", ()=>{
         $("#project-6").animate({"opacity": "0"});
         $("#project-7").animate({"opacity": "0"});
         $("#project-8").animate({"opacity": "0"});
+        $("#project-9").animate({"opacity": "0"});
         $("#about").animate({"opacity": "0"});
     
         // if scroll Y position greater than x, fade in
@@ -138,6 +147,9 @@ page.addEventListener("click", ()=>{
             $("#project-8").animate({"opacity": "1"}, 1200);
         }
         if(window.scrollY > 3800){
+            $("#project-9").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 4300){
             $("#about").animate({"opacity": "1"}, 1200);
         }
         });
@@ -153,6 +165,7 @@ page.addEventListener("click", ()=>{
         $("#project-6").animate({"opacity": "0"});
         $("#project-7").animate({"opacity": "0"});
         $("#project-8").animate({"opacity": "0"});
+        $("#project-9").animate({"opacity": "0"});
         $("#about").animate({"opacity": "0"});
     
         // if scroll Y position greater than x, fade in
@@ -183,6 +196,9 @@ page.addEventListener("click", ()=>{
             $("#project-8").animate({"opacity": "1"}, 1200);
         }
         if(window.scrollY > 4543){
+            $("#project-9").animate({"opacity": "1"}, 1200);
+        }
+        if(window.scrollY > 5132){
             $("#about").animate({"opacity": "1"}, 1200);
         }
         });
