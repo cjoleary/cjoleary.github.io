@@ -1,2 +1,2 @@
 # CJO-Portfolio
- Online portfolio to showcase my Techdegree projects
+ Online portfolio to showcase my coding projects
