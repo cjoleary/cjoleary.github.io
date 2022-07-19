@@ -1,10 +1,15 @@
 
 // click function that shows scroll Y position
 let screenWidth = window.outerWidth;
-const page = document.querySelector("body");
-page.addEventListener("click", ()=>{
-  console.log(`Y scroll position is: ${window.scrollY}`);
-  console.log(`screen width is: ${screenWidth}`);
+const nav = document.querySelector(".navbar");
+
+// add bg color to top nav when user scrolls down the page, remove bg color when back to top
+window.addEventListener("scroll", () => {
+    if(window.scrollY > 200) {
+        nav.classList.add('bg-light');
+    } else {
+        nav.classList.remove('bg-light');
+    }
 });
 
 // fade in content when scrolling work and about sections
