@@ -22,13 +22,9 @@ body {
     } 
 
 nav {
-    /* background-color: #263a6e; */
     max-width: 1500px;
     margin: 0 auto;
-}
-
-.lead {
-    margin-left: 1px;
+    transition: background-color ease-in-out .3s;
 }
 
 h2:nth-of-type(odd),
@@ -89,9 +85,3 @@ ul li {
         width: 250px;
     }
 }
-
-/* @media (min-width: 768px) {
-    .jumbotron {
-        height: 450px;
-    }
-} */
