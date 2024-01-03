@@ -29,12 +29,19 @@ nav {
 
 h2:nth-of-type(odd),
 h3 span,
-h6 {
+h6,
+h6 a,
+h6 a:hover {
     color: #bbc4d8;
 }
 
 h6 {
     padding-left: 39px;
+}
+
+h6 a:hover {
+    text-decoration: none;
+    opacity: .75;
 }
 
 .evens h2,
