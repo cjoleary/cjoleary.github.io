@@ -4,7 +4,6 @@ html {
   }
 
 body {
-    max-width: 1500px;
     margin: 0 auto;
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
@@ -22,7 +21,6 @@ body {
     } 
 
 nav {
-    max-width: 1500px;
     margin: 0 auto;
     transition: background-color ease-in-out .3s;
 }
@@ -90,6 +88,11 @@ ul li {
 
 ul li {
     list-style-type: none;
+}
+
+#work,
+#about {
+    scroll-margin-top: 86px; /* height of nav */
 }
 
 @media (max-width: 767px) {
